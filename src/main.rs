@@ -9,4 +9,10 @@ fn main() {
     println!("The value of y is: {}", y);
     y = 20; 
     println!("The value of y is: {}", y);
+
+    // Even though variables are mutable by default, they can also be constant
+    // Constant variables must be type annotated unlike regular variables
+    // 
+    const TWENTY_FOUR_HOURS_IN_MINUTES: u32 = 24 * 60;
+    
 }
